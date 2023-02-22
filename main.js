@@ -11,6 +11,7 @@ const openai = new OpenAIApi(configuration);
 const client = new Client({
     authStrategy: new LocalAuth({
         clientId: "client-one" //Un identificador(Sugiero que no lo modifiques)
+        // test
     })
 })
 
